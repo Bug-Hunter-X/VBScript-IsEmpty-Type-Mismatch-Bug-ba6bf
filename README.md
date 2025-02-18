@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in VBScript related to the `IsEmpty` function and its interaction with Variant variables and Null values. The bug is that `IsEmpty` throws a type mismatch error when given a Null value, unlike other languages where this would evaluate as true.  The solution provides a more robust check.
